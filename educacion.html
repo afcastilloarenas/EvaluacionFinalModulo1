@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="Evaluación Final Módulo 1 - Ejercicio de hoja de vida.">
+	<meta name="keywords" content="nextu, hoda de vida, html, evaluación">
+	<meta name="author" content="Andrés Felipe Castillo Arenas">
+	<title>Hoja de Vida - Andrés Felipe Castillo Arenas</title>
+</head>
+<body>
+
+	<!-- Logo en SVG -->
+	<svg width="180" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+	 	<!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+	 	<g class="layer">
+	  		<title>Layer 1</title>
+	  		<g id="svg_3">
+	   			<rect fill="#7f7f7f" height="80" id="svg_2" stroke="#000000" stroke-width="5" width="180" x="0" y="0"/>
+	   			<text fill="#ffffff" font-family="Sans-serif" font-size="52" font-weight="bold" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" x="87" xml:space="preserve" y="59">AFCA</text>
+	  		</g>
+	 	</g>
+	</svg>
+
+	<!-- Título -->
+	<h1>Hoja de Vida</h1>
+
+	<!-- Datos personales -->
+	<h2>Andrés Felipe Castillo Arenas</h2>
+	<h3>Fecha de Nacimiento: 10 de Mayo de 1991</h3>
+	<h3>Lugar de Nacimiento: Bucaramanga, Santander</h3>
+
+	<!-- Enlaces de Menú -->
+	<a href="index.html">Inicio</a>
+	<a href="educacion.html">Educación</a>
+	<a href="experiencia.html">Experiencia</a>
+
+	<!-- Educación -->
+	<h2>Educación</h2>
+
+	<!-- Tabla -->
+	<table border="2">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2013</td>
+				<td>Universidad Autónoma de Bucaramanga</td>
+				<td>Bucaramanga</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2009</td>
+				<td>Fundación Colegio UIS</td>
+				<td>Bucaramanga</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2003</td>
+				<td>Colegio Nuevo Cambridge</td>
+				<td>Bucaramanga</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- Formulario -->
+	<form method="post" accept-charset="utf-8">
+		<fieldset>
+			<legend>Agregar Estudios</legend>
+			<label for="ano"><strong>Año:</strong></label>
+			<select name="ano">
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+			</select>
+			<label for="institucion"><strong>Institución:</strong> </label>
+			<input type="text" name="institucion" placeholder="Institución" required>
+			<label for="lugar"><strong>Lugar:</strong> </label>
+			<input type="text" name="lugar" placeholder="Institución">
+			<input type="submit" name="">
+		</fieldset>
+	</form>
+
+	<!-- Pie de Página -->
+	<h2>Contacto</h2>
+	<p><strong>Correo Electrónico:</strong> <a href="mailto:andresfcastilloa@gmail.com">andresfcastilloa@gmail.com</a></p>
+	<p><strong>Celular:</strong> +57 313 336 7605</p>
+	<p><strong>Dirección:</strong> Av. Calle 100 # 22 - 30</p>
+	
+</body>
+</html>
